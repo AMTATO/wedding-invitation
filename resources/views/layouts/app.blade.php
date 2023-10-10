@@ -16,7 +16,8 @@
 </head>
 
 <body>
-    @yield('content')
+    @include('layouts.hero')
+    @include('layouts.navigation')
 
     <!-- Core plugin JavaScript-->
     @vite('resources/js/app.js')
